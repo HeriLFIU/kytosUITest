@@ -1,0 +1,48 @@
+{
+  "name": "kytos-web-ui",
+  "description": "Kytos-NG Web-ui project",
+  "version": "2024.1.0",
+  "author": "Beraldo Leal <beraldo.leal@cern.ch>",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite serve",
+    "prod": "webpack --progress --config webpack/webpack.prod.js",
+    "preprod": "webpack --progress --config webpack/webpack.preprod.js",
+    "build": "vite build --config vite/vite.config.js --emptyOutDir",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^3.0.6",
+    "@trevoreyre/autocomplete-vue": "^2.2.0",
+    "@vue/compat": "^3.1.0",
+    "d3": "^7.9.0",
+    "d3-request": "^1.0.6",
+    "glob": "^7.2.0",
+    "jsdocgen": "^0.2.4",
+    "string-width-cjs": "^5.1.1",
+    "tiny-emitter": "^2.1.0",
+    "typeit": "^8.2.0",
+    "v-hotkey3": "^0.1.4",
+    "vue": "^3.1.0",
+    "vue-docgen-api": "^4.43.2",
+    "write-file": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/compiler-sfc": "^3.1.0",
+    "cross-env": "^7.0.3",
+    "jquery": "^3.6.0",
+    "jquery-slider": "^0.0.1",
+    "sass": "^1.47.0",
+    "vite": "^6.0.7",
+    "vue3-sfc-loader": "^0.9.5",
+    "yargs": "^17.3.1"
+  },
+  "overrides": {}
+}

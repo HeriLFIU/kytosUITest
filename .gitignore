@@ -1,0 +1,19 @@
+# Ignore components
+docs/source/components.rst
+docs/source/events.rst
+
+# Ignore node_modules
+node_modules/
+package-lock.json
+
+# Distribution / packaging
+dist/
+latest.zip
+
+
+# Build
+/docs/src
+build/
+
+# Log
+*.log
