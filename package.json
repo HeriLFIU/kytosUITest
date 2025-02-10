@@ -9,7 +9,7 @@
     "dev": "vite serve",
     "prod": "webpack --progress --config webpack/webpack.prod.js",
     "preprod": "webpack --progress --config webpack/webpack.preprod.js",
-    "build": "vite build --config vite/vite.config.js --emptyOutDir",
+    "build": "vite build --config vite.config.js --emptyOutDir",
     "preview": "vite preview"
   },
   "dependencies": {
