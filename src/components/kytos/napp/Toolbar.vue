@@ -82,8 +82,8 @@
    },
    created() {
        var self = this
-       console.log("goob")
-       this.$kytos.component('goober', defineAsyncComponent( () => loadModule("http://localhost:8181/ui/kytos/maintenance/k-toolbar/main.kytos", options) ))
+       console.log("test")
+       this.$kytos.component('test', defineAsyncComponent( () => loadModule("http://localhost:8181/ui/kytos/maintenance/k-toolbar/main.kytos", options) ))
        $.get({
          url: this.url,
          datatype: 'json',
